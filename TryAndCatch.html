@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>JavaScript Error Handling</h1>
+    <p id="demo"></p>
+
+    <script>
+      try {
+        // function adddlert(msg) {
+        //   return (document.getElementById("demo").innerHTML = msg);  //( this is function deceleration )
+        // }
+        adddlert("Welcome Zaki");
+      } catch (err) {
+        document.getElementById("demo").innerHTML = err.message;
+      }
+    </script>
+  </body>
+</html>
